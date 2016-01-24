@@ -1,6 +1,6 @@
 {
   "name": "reactexportbutton",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "react export pdf csv",
   "main": "src/index.js",
   "scripts": {
