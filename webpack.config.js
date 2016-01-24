@@ -5,8 +5,8 @@ module.exports = {
   output: {
     path: '.',
     filename: 'index.js',
-	libraryTarget: 'umd',
-	library: 'takaslib'
+  libraryTarget: 'umd',
+  library: 'takaslib'
   },
   devServer: {
     inline: true,
@@ -18,12 +18,21 @@ module.exports = {
             warnings: false
         },
     }),
+  new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+        })
   ],
   externals: {
     react: 'react',
     'react/addons': 'react',
-    'react-modal':'react-modal'
+    'jquery':'jquery'
   },
+   resolve: {
+        alias: {
+            jquery: "jquery/src/jquery"
+        }
+    },
   module: {
     loaders: [
       {

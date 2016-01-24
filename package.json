@@ -1,6 +1,6 @@
 {
   "name": "reactexportbutton",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react export pdf csv",
   "main": "src/index.js",
   "scripts": {
@@ -48,8 +48,7 @@
     "react-addons": "^0.9.1-deprecated",
     "react-addons-test-utils": "0.14.6",
     "react-dom": "^0.14.5",
-    "react-hot-loader": "^1.3.0",
-    "react-modal": "0.6.1"
+    "react-hot-loader": "^1.3.0"
   },
   "devDependencies": {
     "css-loader": "0.23.1",
