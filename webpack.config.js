@@ -5,8 +5,8 @@ module.exports = {
   output: {
     path: '.',
     filename: 'index.js',
-  libraryTarget: 'umd',
-  library: 'takaslib'
+    libraryTarget: 'umd',
+    library: 'takaslib'
   },
   devServer: {
     inline: true,
@@ -23,15 +23,14 @@ module.exports = {
             jQuery: "jquery"
         })
   ],
-  externals: {
-    react: 'react',
-    'react/addons': 'react',
-    'jquery':'jquery'
+  resolve: {
+    modulesDirectories: ['node_modules', 'bower_components']
   },
-   resolve: {
-        alias: {
-            jquery: "jquery/src/jquery"
-        }
+  node: {
+        filename: true,
+        dirname: "mock",
+        process: false,
+        global: true
     },
   module: {
     loaders: [

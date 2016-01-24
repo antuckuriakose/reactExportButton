@@ -1,0 +1,31 @@
+{
+  "name": "reactexportbutton",
+  "description": "react export pdf csv",
+  "main": "src/index.js",
+  "authors": [
+    "ysfzrn"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "export",
+    "pdf",
+    "csv"
+  ],
+  "homepage": "https://github.com/ysfzrn/reactExportButton",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pdfmake": "~0.1.20"
+  }
+}
