@@ -1,6 +1,6 @@
 {
   "name": "reactexportbutton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react export pdf csv",
   "main": "src/index.js",
   "scripts": {
@@ -43,6 +43,7 @@
     "classnames": "2.1.4",
     "jquery": "^2.1.4",
     "mocha": "2.3.4",
+    "radium": "0.16.4",
     "react": "^0.14.5",
     "react-addons": "^0.9.1-deprecated",
     "react-addons-test-utils": "0.14.6",
@@ -51,13 +52,15 @@
     "react-modal": "0.6.1"
   },
   "devDependencies": {
+    "css-loader": "0.23.1",
+    "expect": "1.12.2",
+    "expect-jsx": "2.1.2",
+    "mocha": "2.3.4",
+    "style-loader": "0.13.0",
     "watchify": "^3.2.2",
     "webpack": "1.12.12",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-dev-server": "^1.14.0",
-    "webpack-hot-middleware": "^2.4.1",
-    "mocha": "2.3.4",
-    "expect": "1.12.2",
-    "expect-jsx": "2.1.2"
+    "webpack-hot-middleware": "^2.4.1"
   }
 }
