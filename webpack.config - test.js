@@ -1,24 +1,18 @@
 var webpack = require('webpack');
 
+
 module.exports = {
-  entry: './src/index.js',
+  entry: './main.js',
   output: {
     path: '.',
     filename: 'index.js',
-    libraryTarget: 'umd',
-    library: 'takaslib'
   },
   devServer: {
     inline: true,
     port: 3000
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-        compress: {
-            warnings: false
-        },
-    }),
-  new webpack.ProvidePlugin({
+   new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery",
             jsPDF:"jspdf/dist/jspdf.amd.min.js"
