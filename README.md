@@ -1,3 +1,5 @@
+<p><code>npm install reactexportbutton</code></p>
+
 <pre>
 <code class="language-javascript">"# reactExportButton" 
 
